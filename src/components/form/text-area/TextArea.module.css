@@ -1,0 +1,12 @@
+.textarea {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737b7d;
+  padding: 12px 24px;
+  background: #ffffff;
+  border: 2px solid #e2f3f3;
+  border-radius: 25px;
+  width: 100%;
+  resize: none;
+  min-height: 120px;
+}

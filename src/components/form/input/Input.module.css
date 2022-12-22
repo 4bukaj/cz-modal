@@ -1,0 +1,21 @@
+.label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  position: relative;
+  left: 14px;
+  color: var(--dark);
+}
+
+.input {
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #737b7d;
+  padding: 12px 24px;
+  background: #ffffff;
+  border: 2px solid #e2f3f3;
+  border-radius: 25px;
+  width: 100%;
+}

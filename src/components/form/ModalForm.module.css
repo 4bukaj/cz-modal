@@ -1,0 +1,41 @@
+.btnsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputsContainer {
+  margin-top: 24px;
+}
+
+.formControls {
+  margin-bottom: 48px;
+}
+
+.ratingError {
+  color: red;
+  margin-left: 14px;
+  font-size: 14px;
+}
+
+.radioControls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.radioControls > label > input[type="radio"] {
+  display: none;
+}
+
+.radioControls > label > img {
+  max-width: 56px;
+  max-height: 56px;
+  cursor: pointer;
+}
+
+.radioControls > label > input[type="radio"]:checked + img {
+  border-radius: 50%;
+  background-color: var(--light);
+  box-shadow: 0 0 0 8px var(--light);
+}
